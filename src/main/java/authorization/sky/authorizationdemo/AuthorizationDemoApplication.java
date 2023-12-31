@@ -1,5 +1,6 @@
 package authorization.sky.authorizationdemo;
 
+import example.WrongLoginException;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,4 +11,5 @@ public class AuthorizationDemoApplication {
 		SpringApplication.run(AuthorizationDemoApplication.class, args);
 	}
 
+	String login = "java_skypro_go";
 }
