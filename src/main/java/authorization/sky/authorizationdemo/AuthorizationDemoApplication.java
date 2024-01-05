@@ -11,5 +11,5 @@ public class AuthorizationDemoApplication {
 		SpringApplication.run(AuthorizationDemoApplication.class, args);
 	}
 
-	String login = "java_skypro_go";
+
 }
